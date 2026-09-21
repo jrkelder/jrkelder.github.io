@@ -37,3 +37,45 @@ h2 {
 p {
     line-height: 1.6;
 }
+
+nav{
+    background-color: #5c3b22;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #5c3b22;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3b3025;
+}
+
+input,
+textarea {
+    padding: 8px;
+    width: 250px;
+    max-width: 90%;
+}
+
+textarea {
+    height: 100px;
+}
